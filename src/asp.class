@@ -1,0 +1,14 @@
+<hit>
+<?Q
+
+name: asp;
+
+used server\plugin;
+used server\Listener;
+used server\mcpe\Linke;
+
+class asp Plugin minecraft::Load{
+function Enable(){
+minecraft::Load()->Plugin();
+}
+}
